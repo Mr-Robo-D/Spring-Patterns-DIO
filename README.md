@@ -10,17 +10,13 @@ CRUD completo para a entidade Cliente.
 •Documentação da API gerada automaticamente com Swagger (OpenAPI).
 
 Tecnologias Utilizadas
-•Java 17
-•Spring Boot
-•Spring Data JPA
-•Spring Web
-•Spring Cloud OpenFeign (para consumo da API externa)
-•H2 Database (banco de dados em memória)
-•Maven (gerenciador de dependências)
-•Springdoc OpenAPI (Swagger) (para documentação da API)
+
+Java 17, Spring Boot, Spring Data JPA, Spring Web, Spring Cloud OpenFeign (para consumo da API externa), H2 Database (banco de dados em memória), Maven (gerenciador de dependências) e Springdoc OpenAPI (Swagger) (para documentação da API)
 
 Padrões de Projeto Aplicado
 
 •Strategy: A camada de serviço (ClienteService) é desacoplada de sua implementação (ClienteServiceImpl), permitindo a troca de estratégias de negócio sem impactar o controller.
+
 •Facade: O ClienteService atua como uma fachada, simplificando a interação do controller com a complexidade de múltiplos repositórios e serviços externos.
+
 •Singleton: Os componentes do Spring (@Service, @Repository) são gerenciados como Singletons por padrão, garantindo uma única instância por toda a aplicação.
