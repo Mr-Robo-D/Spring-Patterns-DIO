@@ -9,7 +9,7 @@ CRUD completo para a entidade Cliente.
 •Persistência de dados em banco de dados relacional.
 •Documentação da API gerada automaticamente com Swagger (OpenAPI).
 
-🛠️ Tecnologias Utilizadas
+Tecnologias Utilizadas
 •Java 17
 •Spring Boot
 •Spring Data JPA
